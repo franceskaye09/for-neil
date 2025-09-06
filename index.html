@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi Boo 🌸</title>
+</head>
+<body>
+    <div align="center">
+        <h2>Hi boo! How was your day?</h2>
+
+        <p>Click the flower below 🌸</p>
+
+        <!-- Moving flower (wiggle) using marquee -->
+        <marquee behavior="alternate" scrollamount="3" direction="left" style="font-size: 60px; width: 100px; cursor: pointer;" onclick="showMessage()">
+            🌼
+        </marquee>
+
+        <!-- Hidden message area -->
+        <div id="message" style="display:none; margin-top: 30px; max-width: 90%; font-size: 18px; text-align: center;">
+            <p>Good or tired. </p>
+            <p>It’s already 8PM, and I know you always have a long day. If you're curretly feeling tired listen to music, and remember not to push yourself too hard tonight. 💤</p>
+            <p>You’ve always done more than enough 💖</p>
+            <p>Drink some water, take deep breathes and rest that lovely mind of yours whenever you can. 🧸</p>
+            <p>Hugs and kisses kay nag pile lang hereee!. Sleep tight for later when you're ready. 😴</p>
+            <p>Drive safely, and always get home safe <33</p>
+            <p>I love you always, boo!</p>
+            <p>🌙💌</p>
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
